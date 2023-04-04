@@ -51,6 +51,13 @@ table {
   border: none;
 }
 
-.deleteBtn {
+#serverTable tbody tr:hover{
+  background-color: red;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+#paymentTable tbody tr:hover{
+  background-color: red;
+  text-decoration: line-through;
   cursor: pointer;
 }
